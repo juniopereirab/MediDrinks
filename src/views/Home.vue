@@ -1,6 +1,6 @@
 <template>
   <medi-preco-nav/>
-  <div class="homeContainer">
+  <div class="homeContainer" v-if="drinks">
     <div class="homeTitle">
       <h2>Os melhores drinks Não-Alcoolicos do <span id="blue">Brasil</span></h2>
       <span id="gray">{{drinks.length}} resultados encontrados</span>
