@@ -176,7 +176,7 @@ button#backHome:hover {
 .ingredientsList {
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 250px;
   flex-wrap: wrap;
 }
 
